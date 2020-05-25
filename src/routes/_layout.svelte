@@ -50,7 +50,7 @@
       &copy; {new Date().getFullYear()} CodingStark. Build With
       <a href="https://svelte.dev" target="_blank">Svelte</a>
       . Made With
-      <i class="fa fa-heart" style="font-size:16px;color:red" />
+       ❤
       by
       <a href="https://www.instagram.com/codingstark/" target="_blank">
         Himanshu Maurya

@@ -45,8 +45,9 @@
 </svelte:head>
 
 <header>
-  <p>{post.printDate} ~ {post.printReadingTime}</p>
+  <p>{post.printDate} ~ {post.printReadingTime} </p>
   <h1>{post.title}</h1>
+  <p>by {post.author}</p>
   <hr />
 </header>
 <div class="container">

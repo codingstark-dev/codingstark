@@ -1,6 +1,8 @@
 ---
 title: Markdown Test Page
 date: 2019-06-16T12:51:00.000Z
+author: Himanshu Maurya
+keyword: <meta name="keywords" content="example keyword 1, example keyword 2">
 ---
 
 A sample page with the most common elements of an article, including headings, paragraphs, lists, and images.

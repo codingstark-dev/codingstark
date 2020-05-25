@@ -81,18 +81,18 @@ a {
 }
 
 a:hover {
-    color: #1a73e8;
+    color: #502da7;
 }
 
 p a {
     text-decoration: none;
-    box-shadow: inset 0 -0.12em 0 #1a73e8;
+    box-shadow: inset 0 -0.12em 0 #502da7;
     -webkit-transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
     transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
 }
 
 p a:hover {
-    box-shadow: inset 0 -1.5em 0 #1a73e8;
+    box-shadow: inset 0 -1.5em 0 #502da7;
     color: #FFF;
 }
 
@@ -119,8 +119,8 @@ code {
 }
 
 pre {
-    border-radius: 8px!important;
-    margin: 1.2em 0!important;
+    border-radius: 8px !important;
+    margin: 1.2em 0 !important;
 }
 
 pre code {
