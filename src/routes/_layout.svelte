@@ -1,5 +1,5 @@
 <script>
-  import Header from '../components/Header.svelte';
+  import Header from "../components/Header.svelte";
 
   export let segment;
 </script>
@@ -26,29 +26,36 @@
   }
 
   footer {
-    color: #AAA;
+    color: #aaa;
     font-size: 1em;
     font-family: Rubik, sans-serif;
     margin: 1em auto;
     max-width: 1400px;
     padding: 1em 2em;
     text-align: center;
-    width: 100%;
+    width: -webkit-fill-availableb;
   }
+ 
 </style>
 
 <div class="layout">
-  <Header {segment}/>
+  <Header {segment} />
 
   <main>
-    <slot></slot>
+    <slot />
   </main>
 
   <footer>
     <span>
-      &copy; {new Date().getFullYear()} Your Blog.
-      Powered by <a href="https://sapper.svelte.dev" target="_blank">Sapper</a>.
-      Template by <a href="https://www.twitter.com/Charca" target="_blank">Maxi Ferreira</a>.
+      &copy; {new Date().getFullYear()} CodingStark. Build With
+      <a href="https://svelte.dev" target="_blank">Svelte</a>
+      . Made With
+      <i class="fa fa-heart" style="font-size:16px;color:red" />
+      by
+      <a href="https://www.instagram.com/codingstark/" target="_blank">
+        Himanshu Maurya
+      </a>
+      .
     </span>
   </footer>
 </div>
