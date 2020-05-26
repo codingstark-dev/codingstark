@@ -81,18 +81,18 @@ a {
 }
 
 a:hover {
-    color: #502da7;
+    color: #fd6378;
 }
 
 p a {
     text-decoration: none;
-    box-shadow: inset 0 -0.12em 0 #502da7;
+    box-shadow: inset 0 -0.12em 0 #fd6378;
     -webkit-transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
     transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
 }
 
 p a:hover {
-    box-shadow: inset 0 -1.5em 0 #502da7;
+    box-shadow: inset 0 -1.5em 0 #fd6378;
     color: #FFF;
 }
 
@@ -185,7 +185,7 @@ td {
 
 @media (max-width: 1020px) {
     h1 {
-        font-size: 3em;
+        font-size: 2em;
     }
     .content h1 {
         font-size: 2.4em;

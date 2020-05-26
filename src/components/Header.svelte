@@ -12,6 +12,7 @@
     max-width: 1400px;
     padding: 2em;
     width: -webkit-fill-available;
+    /* overflow: auto; */
   }
 </style>
 

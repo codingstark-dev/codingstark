@@ -5,10 +5,10 @@
   }
 
   img {
-    width: 100px;
-    height: 100px;
+    /* width: 100px;
+    height: 100px; */
     border-radius: 100px;
-    /* border: 3px solid #fd6378; */
+    border: 3px solid #fd6378;
     display: block;
     margin-right: 20px;
   }
@@ -19,11 +19,15 @@
 </style>
 
 <div>
-  <img src="profile-pic.png" alt="Maxi Ferreira">
+  <img
+    src="https://i.pinimg.com/75x75_RS/6f/a3/f0/6fa3f0aab168cf13d062f9df566c6c3c.jpg"
+    alt="Himanshu Maurya" />
   <p>
-    Hi, I'm <strong>Maxi</strong>. I'm a software engineer and data scientist from Córdoba, Argentina.
-    You can follow me on <a href="https://www.twitter.com/Charca" target="_blank">Twitter</a>,
-    see some of my work on <a href="https://www.github.com/Charca" target="_blank">GitHub</a>,
-    or read more about me on <a href="https://www.maxiferreira.com" target="_blank">my website</a>.
+    Hi, I'm
+    <strong>Himanshu Maurya</strong>
+    . I'm a Application and Web Developer Also a Blogger. 
+    See some of my work on
+    <a href="https://www.github.com/Charca" target="_blank">GitHub</a>
+    .
   </p>
 </div>

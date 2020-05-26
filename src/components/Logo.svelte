@@ -4,8 +4,15 @@
     height: 50px;
     width: 50px;
   }
+  @media (max-width: 320px) {
+    img {
+      display: block;
+      height: 45px;
+      width: 45px;
+    }
+  }
 </style>
 
 <a href="/">
-  <img alt="Sapper" src='logo-192.png'>
+  <img alt="CodingStark" src="codingstark.png" />
 </a>

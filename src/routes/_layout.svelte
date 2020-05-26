@@ -1,7 +1,13 @@
 <script>
   import Header from "../components/Header.svelte";
-
   export let segment;
+  import { stores } from "@sapper/app";
+  const { page } = stores();
+  $: if (typeof gtag !== "undefined") {
+    gtag("config", "UA-124602515-6", {
+      page_path: $page.path
+    });
+  }
 </script>
 
 <style>
@@ -35,7 +41,16 @@
     text-align: center;
     width: -webkit-fill-availableb;
   }
- 
+  .heart {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    height: 22px;
+    width: 17px;
+    top: 10px;
+  }
 </style>
 
 <div class="layout">
@@ -50,7 +65,7 @@
       &copy; {new Date().getFullYear()} CodingStark. Build With
       <a href="https://svelte.dev" target="_blank">Svelte</a>
       . Made With
-       ❤
+      <span class="heart" />
       by
       <a href="https://www.instagram.com/codingstark/" target="_blank">
         Himanshu Maurya

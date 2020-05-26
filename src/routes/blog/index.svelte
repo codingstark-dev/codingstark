@@ -34,8 +34,8 @@
 </svelte:head>
 
 <div class="container">
-  <h1>Blog</h1>
-  {#each posts as post, index}
+  <!-- <h4>Blog</h4> -->
+  {#each posts.reverse() as post, index}
     {#if index}
       <hr />
     {/if}
