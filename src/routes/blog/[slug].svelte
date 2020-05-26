@@ -1,4 +1,5 @@
 <script context="module">
+  // import { post } from "./../../../__sapper__/build/server/server.js";
   export async function preload({ params, query }) {
     // the `slug` parameter is available because
     // this file is called [slug].html
@@ -14,8 +15,9 @@
 </script>
 
 <script>
-  import Bio from '../../components/Bio.svelte'
-  export let post
+  import Bio from "../../components/Bio.svelte";
+  export let post;
+  // let lolo = post.keyword.replace(/^"(.*)"$/, "$1");
 </script>
 
 <style>
@@ -28,7 +30,7 @@
   }
 
   header p {
-    color: #AAA;
+    color: #aaa;
     text-transform: uppercase;
     font-family: Rubik, sans-serif;
     font-weight: 600;
@@ -42,10 +44,14 @@
 
 <svelte:head>
   <title>{post.title}</title>
+  <meta name="description" content={post.meta} />
+  <meta name="keywords" content={post.keyword} />
+  <meta name="author" content={post.author} />
+
 </svelte:head>
 
 <header>
-  <p>{post.printDate} ~ {post.printReadingTime} </p>
+  <p>{post.printDate} ~ {post.printReadingTime}</p>
   <h1>{post.title}</h1>
   <p>by {post.author}</p>
   <hr />

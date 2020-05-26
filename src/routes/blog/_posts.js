@@ -46,11 +46,11 @@ const posts = fs
     .map((fileName) => {
         const fileMd = fs.readFileSync(path.join(POSTS_DIR, fileName), "utf8");
         const { data, content: rawContent } = matter(fileMd);
-        const { title, date, author } = data;
+        const { title, date, author, keyword, meta } = data;
         const slug = fileName.split(".")[0];
         let content = rawContent;
         let excerpt = "";
-
+        // console.log(data);
 
         if (rawContent.indexOf(EXCERPT_SEPARATOR) !== -1) {
             const splittedContent = rawContent.split(EXCERPT_SEPARATOR);
@@ -71,6 +71,8 @@ const posts = fs
             excerpt,
             printDate,
             author,
+            keyword,
+            meta,
             printReadingTime,
         };
     });
