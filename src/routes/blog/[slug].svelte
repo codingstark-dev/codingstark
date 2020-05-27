@@ -47,7 +47,7 @@
   <meta name="description" content={post.meta} />
   <meta name="keywords" content={post.keyword} />
   <meta name="author" content={post.author} />
-  <link rel="canonical" href="http://localhost:300/{post.slug}" />
+  <link rel="canonical" href="https://codingstark.com/{post.slug}" />
 
 </svelte:head>
 

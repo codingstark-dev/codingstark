@@ -1,7 +1,7 @@
 import posts from "./blog/_posts";
 const fs = require("fs");
 
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://codingstark.com/";
 const pages = [""];
 
 fs.readdirSync("./src/routes").forEach((file) => {
