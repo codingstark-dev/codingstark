@@ -63,11 +63,11 @@
   <footer>
     <span>
       &copy; {new Date().getFullYear()} CodingStark. Build With
-      <a href="https://svelte.dev" target="_blank">Svelte</a>
+      <a href="https://svelte.dev" rel="noreferrer" target="_blank">Svelte</a>
       . Made With
       <span class="heart" />
       by
-      <a href="https://www.instagram.com/codingstark/" target="_blank">
+      <a href="https://www.instagram.com/CodingStark/" rel="noreferrer" target="_blank">
         Himanshu Maurya
       </a>
       .

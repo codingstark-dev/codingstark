@@ -27,7 +27,7 @@
     <strong>Himanshu Maurya</strong>
     . I'm a Application and Web Developer Also a Blogger. 
     See some of my work on
-    <a href="https://www.github.com/Charca" target="_blank">GitHub</a>
+    <a href="https://github.com/refoxdev" rel="noreferrer" target="_blank">GitHub</a>
     .
   </p>
 </div>

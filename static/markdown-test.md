@@ -1,9 +1,10 @@
 ---
-title: Markdown Test Page
+title: Markdown 4 Test Page
 date: 2019-06-16T12:51:00.000Z
 author: Himanshu Maurya
 keyword: example keyword 1, example keyword 2
 meta: A sample page with the most common elements of an article, including headings, paragraphs, lists, and images.
+published: true
 ---
 
 A sample page with the most common elements of an article, including headings, paragraphs, lists, and images.
@@ -125,13 +126,13 @@ In laboris eiusmod reprehenderit aliquip sit proident occaecat. Non sit labore a
 
 Duis sunt ut pariatur reprehenderit mollit mollit magna dolore in pariatur nulla commodo sit dolor ad fugiat. Laboris amet ea occaecat duis eu enim exercitation deserunt ea laborum occaecat reprehenderit. Et incididunt dolor commodo consequat mollit nisi proident non pariatur in et incididunt id. Eu ut et Lorem ea ex magna minim ipsum ipsum do.
 
-| Table Heading 1 | Table Heading 2 | Center align    | Right align     | Table Heading 5 |
-| :-------------- | :-------------- | :-------------: | --------------: | :-------------- |
-| Item 1          | Item 2          | Item 3          | Item 4          | Item 5          |
-| Item 1          | Item 2          | Item 3          | Item 4          | Item 5          |
-| Item 1          | Item 2          | Item 3          | Item 4          | Item 5          |
-| Item 1          | Item 2          | Item 3          | Item 4          | Item 5          |
-| Item 1          | Item 2          | Item 3          | Item 4          | Item 5          |
+| Table Heading 1 | Table Heading 2 | Center align | Right align |
+| :-------------- | :-------------- | :----------: | ----------: |
+| Item 1          | Item 2          |    Item 3    |      Item 4 |
+| Item 1          | Item 2          |    Item 3    |      Item 4 |
+| Item 1          | Item 2          |    Item 3    |      Item 4 |
+| Item 1          | Item 2          |    Item 3    |      Item 4 |
+| Item 1          | Item 2          |    Item 3    |      Item 4 |
 
 Minim id consequat adipisicing cupidatat laborum culpa veniam non consectetur et duis pariatur reprehenderit eu ex consectetur. Sunt nisi qui eiusmod ut cillum laborum Lorem officia aliquip laboris ullamco nostrud laboris non irure laboris. Cillum dolore labore Lorem deserunt mollit voluptate esse incididunt ex dolor.
 

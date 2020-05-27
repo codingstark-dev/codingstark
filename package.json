@@ -1,6 +1,6 @@
 {
     "name": "codingstark",
-    "description": "TODO",
+    "description": "CodingStark",
     "version": "0.0.1",
     "scripts": {
         "dev": "sapper dev",

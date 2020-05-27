@@ -1,3 +1,9 @@
+<!-- <script context="module">
+  export function preload({ params, query }) {
+    return this.fetch("sitemap.xml");
+  }
+</script> -->
+
 <style>
   .home-container {
     align-items: center;
@@ -61,16 +67,68 @@
 </style>
 
 <svelte:head>
-  <title>Sapper Blog Template</title>
+  <title>The CodingStark</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-124602515-6">
+
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "UA-124602515-6");
+  </script>
+  <!-- Primary Meta Tags -->
+  <title>CodingStark - Becomer easier programmer</title>
+  <link rel="canonical" href="http://localhost:3000/" />
+   <link rel="apple-touch-icon" href="logo.webp">
+
+  <meta name="title" content="CodingStark - Becomer easier programmer" />
+  <meta
+    name="description"
+    content="If your willing be a good programmer and developer so don't worry
+    you will get huge amount of knowledge in this blog " />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://CodingStark.com" />
+  <meta property="og:title" content="CodingStark - Becomer easier programmer" />
+  <meta
+    property="og:description"
+    content="If your willing be a good programmer and developer so don't worry
+    you will get huge amount of knowledge in this blog " />
+  <meta property="og:image" content="logo.webp" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://CodingStark.com" />
+  <meta
+    property="twitter:title"
+    content="CodingStark - Becomer easier programmer" />
+  <meta
+    property="twitter:description"
+    content="If your willing be a good programmer and developer so don't worry
+    you will get huge amount of knowledge in this blog " />
+  <meta property="twitter:image" content="logo.webp" />
+
 </svelte:head>
 
 <div class="home-container">
   <div class="home-copy">
     <h1>This Website Will Give You Goku Power!</h1>
-    <p>Check Out Latest Post <a href="/blog" >Blog.</a></p>
+    <p>
+      Check Out Latest Post
+      <a href="/blog">Blog.</a>
+    </p>
   </div>
 
   <figure>
-    <img alt='Person typing on laptop' src='man.png'>
+    <img alt="Person typing on laptop" src="man.webp" />
   </figure>
 </div>

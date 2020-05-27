@@ -14,5 +14,5 @@
 </style>
 
 <a href="/">
-  <img alt="CodingStark" src="codingstark.png" />
+  <img alt="CodingStark" src="logo.webp" />
 </a>

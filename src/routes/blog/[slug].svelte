@@ -47,19 +47,22 @@
   <meta name="description" content={post.meta} />
   <meta name="keywords" content={post.keyword} />
   <meta name="author" content={post.author} />
+  <link rel="canonical" href="http://localhost:300/{post.slug}" />
 
 </svelte:head>
 
-<header>
-  <p>{post.printDate} ~ {post.printReadingTime}</p>
-  <h1>{post.title}</h1>
-  <p>by {post.author}</p>
-  <hr />
-</header>
-<div class="container">
-  <article class="content">
-    {@html post.html}
-  </article>
-  <hr />
-  <Bio />
-</div>
+
+  <header>
+    <p>{post.printDate} ~ {post.printReadingTime}</p>
+    <h1>{post.title}</h1>
+    <p>by {post.author}</p>
+    <hr />
+  </header>
+  <div class="container">
+    <article class="content">
+      {@html post.html}
+    </article>
+    <hr />
+    <Bio />
+  </div>
+
