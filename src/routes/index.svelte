@@ -87,7 +87,7 @@
   <!-- Primary Meta Tags -->
   <title>CodingStark - Becomer easier programmer</title>
   <link rel="canonical" href="https://codingstark.com/" />
-   <link rel="apple-touch-icon" href="logo.png">
+   <link rel="apple-touch-icon" href="logo.webp">
 
   <meta name="title" content="CodingStark - Becomer easier programmer" />
   <meta
@@ -103,7 +103,7 @@
     property="og:description"
     content="If your willing be a good programmer and developer so don't worry
     you will get huge amount of knowledge in this blog " />
-  <meta property="og:image" content="logo.png" />
+  <meta property="og:image" content="logo.webp" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
@@ -115,7 +115,7 @@
     property="twitter:description"
     content="If your willing be a good programmer and developer so don't worry
     you will get huge amount of knowledge in this blog " />
-  <meta property="twitter:image" content="logo.png" />
+  <meta property="twitter:image" content="logo.webp" />
 
 </svelte:head>
 
