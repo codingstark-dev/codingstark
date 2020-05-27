@@ -86,7 +86,7 @@
   </script>
   <!-- Primary Meta Tags -->
   <title>CodingStark - Becomer easier programmer</title>
-  <link rel="canonical" href="https://codingstark.com/" />
+  <link rel="canonical" href="https://codingstark.now.sh/" />
    <link rel="apple-touch-icon" href="logo.webp">
 
   <meta name="title" content="CodingStark - Becomer easier programmer" />

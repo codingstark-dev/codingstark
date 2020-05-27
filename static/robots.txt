@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://CodingStark.com/sitemap.xml
+Sitemap: https://codingstark.now.sh/sitemap.xml
