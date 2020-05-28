@@ -29,8 +29,10 @@
   hr {
     margin: 60px auto;
   }
+ 
 </style>
 
+<!-- Blog.svelte -->
 <svelte:head>
   <title>CodingStark Blog</title>
 </svelte:head>
@@ -42,9 +44,13 @@
       <hr />
     {/if}
     <div class="post-item">
+     
       <h2>
         <a rel="prefetch" href="blog/{post.slug}">{post.title}</a>
-      </h2>
+      </h2> 
+      <!-- <img
+        src="https://1.bp.blogspot.com/-USyBVNe2RTU/XlI24dmbkeI/AAAAAAAALuA/ULI_0Yel4qQ-qBPe-J7M-V6aBnbWebRLQCLcBGAsYHQ/s1600/kinemaster%2Bdiamond%2Bapk.webp"
+        alt="" /> -->
       <p>{post.excerpt}</p>
       <div class="post-item-footer">
         <span class="post-item-date">— {post.printDate}</span>

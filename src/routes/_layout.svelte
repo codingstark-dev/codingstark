@@ -3,6 +3,7 @@
   export let segment;
   import { stores } from "@sapper/app";
   const { page } = stores();
+  
   $: if (typeof gtag !== "undefined") {
     gtag("config", "UA-124602515-6", {
       page_path: $page.path
@@ -64,10 +65,17 @@
     <span>
       &copy; {new Date().getFullYear()} CodingStark. Build With
       <a href="https://svelte.dev" rel="noreferrer" target="_blank">Svelte</a>
+      And
+      <a href="https://sapper.svelte.dev" rel="noreferrer" target="_blank">
+        Sapper
+      </a>
       . Made With
       <span class="heart" />
       by
-      <a href="https://www.instagram.com/CodingStark/" rel="noreferrer" target="_blank">
+      <a
+        href="https://www.instagram.com/CodingStark/"
+        rel="noreferrer"
+        target="_blank">
         Himanshu Maurya
       </a>
       .
